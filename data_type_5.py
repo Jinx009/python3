@@ -1,10 +1,8 @@
 #!/usr/local/bin/python3
 # -*- coding: UTF-8 -*-
-
 dict = {}
 dict['one'] = "This is one"
 dict[2] = "This is two"
-
 tinydict = {'name': 'john', 'code' : 6734, 'dept': 'sales'}
 
 
