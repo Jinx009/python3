@@ -13,6 +13,7 @@ print(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()))
 a = "Sat Mar 28 22:24:24 2016"
 print(time.mktime(time.strptime(a,"%a %b %d %H:%M:%S %Y")))
 
+
 #输出结果如下：
 #2017-06-27 15:07:59
 #Tue Jun 27 15:07:59 2017

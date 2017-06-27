@@ -4,7 +4,7 @@
 import time;  # 引入time模块
 
 ticks = time.time()
-print ('time:', ticks)
+print('time:', ticks)
 
 #输出结果：
 #time: 1498547087.386078
