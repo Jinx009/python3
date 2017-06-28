@@ -21,6 +21,7 @@ print(is_number('1.3'))   # True
 print(is_number('-1.37')) # True
 print(is_number('1e3'))   # True
 
+
 # 测试 Unicode
 # 阿拉伯语 5
 print(is_number('٥'))  # False
