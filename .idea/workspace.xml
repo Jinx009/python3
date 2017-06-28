@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e32544-9630-4722-bb82-2536a857b534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_8.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_9.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +39,7 @@
     <SUITE FILE_PATH="coverage/python3$url_1.coverage" NAME="url_1 Coverage Results" MODIFIED="1498629609278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3$module_3.coverage" NAME="module_3 Coverage Results" MODIFIED="1498611257777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3$cgi_1.coverage" NAME="cgi_1 Coverage Results" MODIFIED="1498614340842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3$example_8.coverage" NAME="example_8 Coverage Results" MODIFIED="1498634542799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3$exception_2.coverage" NAME="exception_2 Coverage Results" MODIFIED="1498555193356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3$func_8.coverage" NAME="func_8 Coverage Results" MODIFIED="1498553532527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3$data_type_5.coverage" NAME="data_type_5 Coverage Results" MODIFIED="1498550937650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -136,11 +137,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example_8.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example_8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example_8.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example_9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/datetime_1.py" />
         <option value="$PROJECT_DIR$/module_1.py" />
         <option value="$PROJECT_DIR$/module_2.py" />
         <option value="$PROJECT_DIR$/module_3.py" />
@@ -222,6 +232,7 @@
         <option value="$PROJECT_DIR$/example_7.py" />
         <option value="$PROJECT_DIR$/example_6.py" />
         <option value="$PROJECT_DIR$/example_8.py" />
+        <option value="$PROJECT_DIR$/example_9.py" />
       </list>
     </option>
   </component>
@@ -280,25 +291,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.example_7">
-    <configuration default="false" name="example_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python3" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.example_8">
     <configuration default="false" name="example_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,6 +360,24 @@
       <module name="python3" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -586,19 +597,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.example_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.example_4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.example_5" />
-      <item index="3" class="java.lang.String" itemvalue="Python.example_6" />
-      <item index="4" class="java.lang.String" itemvalue="Python.example_7" />
+      <item index="0" class="java.lang.String" itemvalue="Python.example_4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.example_5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.example_6" />
+      <item index="3" class="java.lang.String" itemvalue="Python.example_7" />
+      <item index="4" class="java.lang.String" itemvalue="Python.example_8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.example_7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.example_6" />
-        <item index="2" class="java.lang.String" itemvalue="Python.example_5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.example_4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.example_3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.example_8" />
+        <item index="1" class="java.lang.String" itemvalue="Python.example_7" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example_6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.example_5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.example_4" />
       </list>
     </recent_temporary>
   </component>
@@ -679,14 +690,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module_test/runoob2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_test/runoob1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1112,6 +1115,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
