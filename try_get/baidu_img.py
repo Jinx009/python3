@@ -26,7 +26,9 @@ def get_img(_html):
     _time = time.time()
     x = 0
     for img_url in img_list:
+        #随机生成文件名称
         _time = _time + x
+        #保存文件到指定文件夹
         urllib.request.urlretrieve(img_url, '/Users/jinx/Downloads/img/%s.jpg' % _time)
         x += 1
     return x

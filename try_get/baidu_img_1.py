@@ -47,7 +47,7 @@ def get_many_pages(keyword, pages):
 
 def get_img(data_list, local_path):
 
-    if not os.path.exists(local_path):  # 新建文件夹
+    if not os.path.exists(local_path):  #新建文件夹
         os.mkdir(data_list)
 
     _time = time.time()
@@ -55,6 +55,7 @@ def get_img(data_list, local_path):
     for _list in dataList:
         for i in _list:
             if i.get('thumbURL') is not None:
+                #随机生成文件名称
                 _time = _time + x
                 print('正在下载：%s' % i.get('thumbURL'))
                 ir = requests.get(i.get('thumbURL'))
@@ -65,5 +66,6 @@ def get_img(data_list, local_path):
 
 if __name__ == '__main__':
     dataList = get_many_pages('丝袜', 10)
+    #保存到指定文件夹
     get_img(dataList, '/Users/jinx/Downloads/img/sw/')
 
