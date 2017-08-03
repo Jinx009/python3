@@ -1,6 +1,6 @@
 import socket
 
-addr=('115.159.124.222', 5983)
+addr=('139.196.15.137', 5983)
 s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 while True:
