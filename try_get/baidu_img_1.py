@@ -65,7 +65,7 @@ def get_img(data_list, local_path):
                 print('图片链接不存在')
 
 if __name__ == '__main__':
-    dataList = get_many_pages('丝袜', 10)
+    dataList = get_many_pages('桥本穗花', 10)
     #保存到指定文件夹
-    get_img(dataList, '/Users/jinx/Downloads/img/sw/')
+    get_img(dataList, '/Users/jinx/Downloads/img/')
 
